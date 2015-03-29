@@ -1,0 +1,2148 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js BzP">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Naranče za sve</title>
+		<meta name="description" content="Naranče za sve" />
+		<meta name="keywords" content="Naranče za sve"" />
+		<meta name="author" content="Стефан Лазаревски" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="bb-custom-wrapper">
+				<div id="bb-bookblock" class="bb-bookblock">
+					
+					<div class="section bb-item">
+						<div class="bb-custom-side">
+							<div class="majmunce" onclick="this.firstChild.play()"><audio src="audio/majmunce.mp3" preload="auto" /></div>
+							<img class="klupa" src="images/table.jpg" />
+							<a id="autoplayBtn" href="#" class="autoplay_btn" onclick="checkPlay()"><audio class="audio" id="intro" preload="auto"/></a>
+							<img id="autoplayOn" class="autoplay_on" src="images/autoplay_on.png" />
+						</div>
+						<div class="bb-custom-side" onclick="initTouch()">
+							<div class="zajko1"></div>
+							<div class="shadow"><img class="korica" src="images/cover.png" /></div>
+						</div>
+					</div>
+				<!--	<div class="section bb-item">
+						<div class="bb-custom-full">
+							<img class="info" src="images/dedication.png" />
+						</div>
+					</div> -->
+					
+					<div class="section bb-item" onclick="prvaTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause1" onclick="PlayPause1()"><audio class="audio" id="prva_strana" src="audio/1.mp3" preload="auto"/></a>
+							<img class="prvaL" src="images/1L.png" />
+							<div class="text textCont1" id="t1">
+									
+<span id="w1-1" class="word">Jednoga</span>
+<span id="w1-2" class="word">dana</span>
+<span id="w1-3" class="word">mama</span>
+<span id="w1-4" class="word">je</span>
+<span id="w1-5" class="word">iz</span>
+<span id="w1-6" class="word">trgovine</span>
+<span id="w1-7" class="word">donijela</span>
+<span id="w1-8" class="word">kući</span>
+<span id="w1-9" class="word">torbu</span>
+<span id="w1-10" class="word">punu</span>
+<span id="w1-11" class="word">naranči.</span>
+<span id="w1-12" class="word"></span>
+<br/>
+
+
+							</div>
+						</div>
+						<div class="bb-custom-side">
+							<img class="prvaR" src="images/1R.png" />
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="vtoraTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause2" onclick="PlayPause2()"><audio class="audio" id="vtora_strana" src="audio/2.mp3" preload="auto"/></a>
+							<img class="vtoraL" src="images/2L.png" />
+						</div>
+						<div class="bb-custom-side">
+							<img class="vtoraR" src="images/2R.png" />
+							<div class="text textCont2" id="t2">
+<span id="w2-1" class="word">"Obožavam</span>
+<span id="w2-2" class="word">naranče!"</span>
+<span id="w2-3" class="word">rekao</span>
+<span id="w2-4" class="word">je</span>
+<span id="w2-5" class="word">Josip.</span>
+<span id="w2-6" class="word">Uzeo</span>
+<span id="w2-7" class="word">je</span>
+<span id="w2-8" class="word">torbu</span>
+<span id="w2-9" class="word">u</span>
+<span id="w2-10" class="word">sobu</span>
+<span id="w2-11" class="word">i</span>
+<span id="w2-12" class="word"></span>
+<span id="w2-13" class="word">počeo</span>
+<span id="w2-14" class="word">ih</span>
+<span id="w2-15" class="word">je</span>
+<span id="w2-16" class="word">brojati.</span>
+<span id="w2-17" class="word"></span>
+<br/><br/>
+<span id="w2-18" class="word">"Jedna,</span>
+<span id="w2-19" class="word">dvije,</span>
+<span id="w2-20" class="word">tri,</span>
+<span id="w2-21" class="word">četiri,</span>
+<span id="w2-22" class="word">pet</span>
+<span id="w2-23" class="word">naranči!</span>
+<span id="w2-24" class="word">Sve</span>
+<span id="w2-25" class="word">ću</span>
+<span id="w2-26" class="word">ih</span>
+<span id="w2-27" class="word"></span>
+<span id="w2-28" class="word">pojesti</span>
+<span id="w2-29" class="word">sam!"</span>
+<span id="w2-30" class="word"></span>
+<br/>
+
+
+							</div>
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="tretaTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause3" onclick="PlayPause3()"><audio class="audio" id="treta_strana" src="audio/3.mp3" preload="auto"/></a>
+							<img class="tretaL" src="images/3L.png" />
+							
+									
+
+						</div>
+						<div class="bb-custom-side">
+							<img class="tretaR" src="images/3R.png" />
+							<div class="text textCont3" id="t3">
+<span id="w3-1" class="word">Netko</span>
+<span id="w3-2" class="word">je</span>
+<span id="w3-3" class="word">zalupio</span>
+<span id="w3-4" class="word">ulaznim</span>
+<span id="w3-5" class="word">vratima.</span>
+<span id="w3-6" class="word"></span><br/><br/>
+<span id="w3-7" class="word">Tata</span>
+<span id="w3-8" class="word">se</span>
+<span id="w3-9" class="word">vratio</span>
+<span id="w3-10" class="word">s</span>
+<span id="w3-11" class="word">posla.</span>
+<span id="w3-12" class="word">Izgledao</span>
+<span id="w3-13" class="word">je</span>
+<span id="w3-14" class="word">jako</span>
+<span id="w3-15" class="word">umorno.</span>
+<span id="w3-16" class="word"></span><br/><br/>
+<span id="w3-17" class="word">"Možda</span>
+<span id="w3-18" class="word">će</span>
+<span id="w3-19" class="word">ga</span>
+<span id="w3-20" class="word">jedna</span>
+<span id="w3-21" class="word">slasna</span>
+<span id="w3-22" class="word">naranča</span>
+<span id="w3-23" class="word">razveseliti",</span>
+<span id="w3-24" class="word">pomislio</span>
+<span id="w3-25" class="word">je</span>
+<span id="w3-26" class="word">Josip.</span>
+<span id="w3-27" class="word"></span><br/><br/>
+<span id="w3-28" class="word">"Još</span>
+<span id="w3-29" class="word">uvijek</span>
+<span id="w3-30" class="word">će</span>
+<span id="w3-31" class="word">mi</span>
+<span id="w3-32" class="word">ostati</span>
+<span id="w3-33" class="word">puno</span>
+<span id="w3-34" class="word">naranči."</span>
+<br/>
+							</div>
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="cetvrtaTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause4" onclick="PlayPause4()"><audio class="audio" id="cetvrta_strana" src="audio/4.mp3" preload="auto"/></a>
+							<img class="cetvrtaL" src="images/4L.png" />
+														<div class="text textCont4" id="t4">
+<span id="w4-1" class="word">Josip</span>
+<span id="w4-2" class="word">je</span>
+<span id="w4-3" class="word">dao</span>
+<span id="w4-4" class="word">tati</span>
+<span id="w4-5" class="word">najmanju</span>
+<span id="w4-6" class="word">naranču.</span>
+<span id="w4-7" class="word"></span><br/><br/>
+<span id="w4-8" class="word">"Izvoli",</span>
+<span id="w4-9" class="word">rekao</span>
+<span id="w4-10" class="word">je.</span>
+<span id="w4-11" class="word">"Ovo</span>
+<span id="w4-12" class="word">je</span>
+<span id="w4-13" class="word">za</span>
+<span id="w4-14" class="word">tebe."</span>
+<span id="w4-15" class="word"></span><br/><br/>
+<span id="w4-16" class="word">Tata</span>
+<span id="w4-17" class="word">je</span>
+<span id="w4-18" class="word">bio</span>
+<span id="w4-19" class="word">jako</span>
+<span id="w4-20" class="word">sretan.</span>
+<br/>
+
+
+
+							</div>
+						</div>
+						<div class="bb-custom-side">
+							<img class="cetvrtaR" src="images/4R.png" />
+
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="pettaTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause5" onclick="PlayPause5()"><audio class="audio" id="petta_strana" src="audio/5.mp3" preload="auto"/></a>
+							<img class="pettaL" src="images/5L.png" />
+							<div class="text textCont5" id="t5">
+<span id="w5-1" class="word">Onda</span>
+<span id="w5-2" class="word">je</span>
+<span id="w5-3" class="word">Josip</span>
+<span id="w5-4" class="word">otišao</span>
+<span id="w5-5" class="word">u</span>
+<span id="w5-6" class="word">svoju</span>
+<span id="w5-7" class="word">sobu</span>
+<span id="w5-8" class="word">brojati</span>
+<span id="w5-9" class="word">naranče.</span>
+<span id="w5-10" class="word">"Jedna,</span>
+<span id="w5-11" class="word"></span>
+<span id="w5-12" class="word">dvije,</span>
+<span id="w5-13" class="word">tri,</span>
+<span id="w5-14" class="word">četiri</span>
+<span id="w5-15" class="word">naranče</span>
+<span id="w5-16" class="word">samo</span>
+<span id="w5-17" class="word">za</span>
+<span id="w5-18" class="word">mene."</span>
+<span id="w5-19" class="word"></span><br/><br/>
+<span id="w5-20" class="word">"Josipe!"</span>
+<span id="w5-21" class="word">zazvala</span>
+<span id="w5-22" class="word">je</span>
+<span id="w5-23" class="word">mama.</span>
+<span id="w5-24" class="word"></span><br/><br/>
+<span id="w5-25" class="word">"Jasmina,</span>
+<span id="w5-26" class="word">Robert</span>
+<span id="w5-27" class="word">i</span>
+<span id="w5-28" class="word">Milan</span>
+<span id="w5-29" class="word">su</span>
+<span id="w5-30" class="word">se</span>
+<span id="w5-31" class="word">došli</span>
+<span id="w5-32" class="word">igrati.</span>
+<span id="w5-33" class="word"></span><br/><br/>
+<span id="w5-34" class="word">Baš</span>
+<span id="w5-35" class="word">šteta</span>
+<span id="w5-36" class="word">što</span>
+<span id="w5-37" class="word">im</span>
+<span id="w5-38" class="word">nemamo</span>
+<span id="w5-39" class="word">ništa</span>
+<span id="w5-40" class="word">slatko</span>
+<span id="w5-41" class="word">za</span>
+<span id="w5-42" class="word">ponuditi."</span>
+<span id="w5-43" class="word"></span>
+<br/>
+
+
+							</div>
+						</div>
+						<div class="bb-custom-side">
+							<img class="pettaR" src="images/5R.png" />
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="sestaTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause6" onclick="PlayPause6()"><audio class="audio" id="sesta_strana" src="audio/6.mp3" preload="auto"/></a>
+							<img class="sestaL" src="images/6L.png" />
+							<div class="text textCont6" id="t6">
+									
+<span id="w6-1" class="word">Josip</span>
+<span id="w6-2" class="word">je</span>
+<span id="w6-3" class="word">pokušao</span>
+<span id="w6-4" class="word">sakriti</span>
+<span id="w6-5" class="word">naranče</span>
+<span id="w6-6" class="word">iza</span>
+<span id="w6-7" class="word">leđa,</span>
+<span id="w6-8" class="word">ali</span>
+<span id="w6-9" class="word">njegove</span>
+<span id="w6-10" class="word">ruke</span>
+<span id="w6-11" class="word"></span>
+<span id="w6-12" class="word">su</span>
+<span id="w6-13" class="word">imale</span>
+<span id="w6-14" class="word">druge</span>
+<span id="w6-15" class="word">ideje!</span>
+<span id="w6-16" class="word">Pružile</span>
+<span id="w6-17" class="word">su</span>
+<span id="w6-18" class="word">naranče</span>
+<span id="w6-19" class="word">Jasmini,</span>
+<span id="w6-20" class="word">Robertu</span>
+<span id="w6-21" class="word">i</span>
+<span id="w6-22" class="word">Milanu.</span>
+<span id="w6-23" class="word"></span>
+<br/>
+
+
+							</div>
+						</div>
+						<div class="bb-custom-side">
+							<img class="sestaR" src="images/6R.png" />
+							
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="sedmaTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause7" onclick="PlayPause7()"><audio class="audio" id="sedma_strana" src="audio/7.mp3" preload="auto"/></a>
+							<img class="sedmaL" src="images/7L.png" />
+
+						</div>
+						<div class="bb-custom-side">
+							<img class="sedmaR" src="images/7R.png" />
+														<div class="text textCont7" id="t7">
+									
+<span id="w7-1" class="word">Svatko</span>
+<span id="w7-2" class="word">je</span>
+<span id="w7-3" class="word">od</span>
+<span id="w7-4" class="word">njih</span>
+<span id="w7-5" class="word">uzeo</span>
+<span id="w7-6" class="word">najveću</span>
+<span id="w7-7" class="word">naranču</span>
+<span id="w7-8" class="word">koju</span>
+<span id="w7-9" class="word">je</span>
+<span id="w7-10" class="word">spazio.</span>
+<span id="w7-11" class="word"></span><br/><br/>
+<span id="w7-12" class="word">"Hvala!"</span>
+<span id="w7-13" class="word">rekli</span>
+<span id="w7-14" class="word">su</span>
+<span id="w7-15" class="word">sve</span>
+<span id="w7-16" class="word">troje.</span>
+<span id="w7-17" class="word"></span>
+<br/>
+
+
+							</div>
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="osmaTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause8" onclick="PlayPause8()"><audio class="audio" id="osma_strana" src="audio/8.mp3" preload="auto"/></a>
+							<img class="osmaL" src="images/8L.png" />
+														<div class="text textCont8" id="t8">
+<span id="w8-1" class="word">Josip</span>
+<span id="w8-2" class="word">je</span>
+<span id="w8-3" class="word">sakrio</span>
+<span id="w8-4" class="word">torbu</span>
+<span id="w8-5" class="word">s</span>
+<span id="w8-6" class="word">narančama</span>
+<span id="w8-7" class="word">ispod</span>
+<span id="w8-8" class="word">kreveta.</span>
+<span id="w8-9" class="word">Ali</span>
+<span id="w8-10" class="word">upravo</span>
+<span id="w8-11" class="word">tada,</span>
+<span id="w8-12" class="word">mama</span>
+<span id="w8-13" class="word"></span>
+<span id="w8-14" class="word">je</span>
+<span id="w8-15" class="word">uzdahnula:</span>
+<span id="w8-16" class="word">"Tako</span>
+<span id="w8-17" class="word">sam</span>
+<span id="w8-18" class="word">žedna."</span>
+<span id="w8-19" class="word"></span><br/><br/>
+<span id="w8-20" class="word">Josip</span>
+<span id="w8-21" class="word">je</span>
+<span id="w8-22" class="word">znao</span>
+<span id="w8-23" class="word">što</span>
+<span id="w8-24" class="word">bi</span>
+<span id="w8-25" class="word">joj</span>
+<span id="w8-26" class="word">moglo</span>
+<span id="w8-27" class="word">pomoći.</span>
+<span id="w8-28" class="word"></span><br/><br/>
+<span id="w8-29" class="word">"Evo",</span>
+<span id="w8-30" class="word">rekao</span>
+<span id="w8-31" class="word">je,</span>
+<span id="w8-32" class="word">"ovo</span>
+<span id="w8-33" class="word">je</span>
+<span id="w8-34" class="word">za</span>
+<span id="w8-35" class="word">tebe."</span>
+<span id="w8-36" class="word">Dao</span>
+<span id="w8-37" class="word">je</span>
+<span id="w8-38" class="word">mami</span>
+<span id="w8-39" class="word">jednu</span>
+<span id="w8-40" class="word">naranču.</span>
+<span id="w8-41" class="word"></span>
+<br/>
+
+
+
+							</div>
+						</div>
+						<div class="bb-custom-side">
+							<img class="osmaR" src="images/8R.png" />
+
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="devettaTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause9" onclick="PlayPause9()"><audio class="audio" id="devetta_strana" src="audio/9.mp3" preload="auto"/></a>
+							<img class="devetL" src="images/9L.png" />
+							<div class="text textCont9" id="t9">
+									
+<span id="w9-1" class="word">I</span>
+<span id="w9-2" class="word">dok</span>
+<span id="w9-3" class="word">su</span>
+<span id="w9-4" class="word">svi</span>
+<span id="w9-5" class="word">gulili</span>
+<span id="w9-6" class="word">svoje</span>
+<span id="w9-7" class="word">naranče,</span>
+<span id="w9-8" class="word"></span>
+<span id="w9-9" class="word">Josip</span>
+<span id="w9-10" class="word">je</span>
+<span id="w9-11" class="word">otišao</span>
+<span id="w9-12" class="word">u</span>
+<span id="w9-13" class="word">svoju</span>
+<span id="w9-14" class="word">sobu.</span>
+<span id="w9-15" class="word"></span>
+<span id="w9-16" class="word">Izvukao</span>
+<span id="w9-17" class="word">je</span>
+<span id="w9-18" class="word">torbu</span>
+<span id="w9-19" class="word">s</span>
+<span id="w9-20" class="word">narančama.</span>
+<span id="w9-21" class="word"></span><br/><br/>
+<span id="w9-22" class="word">Bila</span>
+<span id="w9-23" class="word">je</span>
+<span id="w9-24" class="word">prazna!</span>
+<span id="w9-25" class="word"></span><br/><br/>
+<span id="w9-26" class="word">"NEMA</span>
+<span id="w9-27" class="word">NI</span>
+<span id="w9-28" class="word">JEDNE</span>
+<span id="w9-29" class="word">NARANČE</span>
+<span id="w9-30" class="word">ZA</span>
+<span id="w9-31" class="word">MENE!"</span>
+<span id="w9-32" class="word">zaplakao</span>
+<span id="w9-33" class="word">je.</span>
+<span id="w9-34" class="word"></span>
+<br/>
+
+
+							</div>
+						</div>
+						<div class="bb-custom-side">
+							<img class="devetR" src="images/9R.png" />
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="desettaTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause10" onclick="PlayPause10()"><audio class="audio" id="desetta_strana" src="audio/10.mp3" preload="auto"/></a>
+							<img class="desettaL" src="images/10L.png" />
+						</div>
+						<div class="bb-custom-side">
+							<img class="desettaR" src="images/10R.png" />
+							<div class="text textCont10" id="t10">
+									
+<span id="w10-1" class="word">Mama,</span>
+<span id="w10-2" class="word">tata,</span>
+<span id="w10-3" class="word">Jasmina,</span>
+<span id="w10-4" class="word">Robert</span>
+<span id="w10-5" class="word">i</span>
+<span id="w10-6" class="word">Milan</span>
+<span id="w10-7" class="word">otrčali</span>
+<span id="w10-8" class="word">su</span>
+<span id="w10-9" class="word">u</span>
+<span id="w10-10" class="word"></span>
+<span id="w10-11" class="word">Josipovu</span>
+<span id="w10-12" class="word">sobu.</span>
+<span id="w10-13" class="word"></span><br/><br/>
+<span id="w10-14" class="word">Josip</span>
+<span id="w10-15" class="word">im</span>
+<span id="w10-16" class="word">je</span>
+<span id="w10-17" class="word">pokazao</span>
+<span id="w10-18" class="word">praznu</span>
+<span id="w10-19" class="word">torbu.</span>
+<span id="w10-20" class="word"></span><br/><br/>
+<span id="w10-21" class="word">“ZA</span>
+<span id="w10-22" class="word">MENE</span>
+<span id="w10-23" class="word">NIJE</span>
+<span id="w10-24" class="word">OSTALA</span>
+<span id="w10-25" class="word">NI</span>
+<span id="w10-26" class="word">JEDNA</span>
+<span id="w10-27" class="word">NARANČA!"</span>
+<span id="w10-28" class="word">jecao</span>
+<span id="w10-29" class="word">je.</span>
+<span id="w10-30" class="word"></span>
+<br/>
+
+
+
+							</div>
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="edinaesetTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause11" onclick="PlayPause11()"><audio class="audio" id="edinaeset_strana" src="audio/11.mp3" preload="auto"/></a>
+							<img class="edinaesetL" src="images/11L.png" />
+							<div class="text textCont11" id="t11">
+									
+<span id="w11-1" class="word">"Evo",</span>
+<span id="w11-2" class="word">rekao</span>
+<span id="w11-3" class="word">je</span>
+<span id="w11-4" class="word">tata,</span>
+<span id="w11-5" class="word">"uzmi</span>
+<span id="w11-6" class="word">komad</span>
+<span id="w11-7" class="word">moje</span>
+<span id="w11-8" class="word">naranče."</span>
+<span id="w11-9" class="word"></span><br/><br/>
+<span id="w11-10" class="word">Raspolovio</span>
+<span id="w11-11" class="word">je</span>
+<span id="w11-12" class="word">svoju</span>
+<span id="w11-13" class="word">naranču</span>
+<span id="w11-14" class="word">i</span>
+<span id="w11-15" class="word">jednu</span>
+<span id="w11-16" class="word">polovicu</span>
+<span id="w11-17" class="word">dao</span>
+<span id="w11-18" class="word">Josipu.</span>
+<br/>
+
+
+							</div>
+						</div>
+						<div class="bb-custom-side">
+							<img class="edinaesetR" src="images/11R.png" />
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="dvanaesetTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause12" onclick="PlayPause12()"><audio class="audio" id="dvanaeset_strana" src="audio/12.mp3" preload="auto"/></a>
+							<img class="dvanaesetL" src="images/12L.png" />
+						<div class="text textCont12" id="t12">
+<span id="w12-1" class="word">"Možeš</span>
+<span id="w12-2" class="word">dobiti</span>
+<span id="w12-3" class="word">malo</span>
+<span id="w12-4" class="word">moje",</span>
+<span id="w12-5" class="word">ponudila</span>
+<span id="w12-6" class="word">je</span>
+<span id="w12-7" class="word">Jasmina.</span>
+<span id="w12-8" class="word"></span><br/><br/>
+<span id="w12-9" class="word">"I</span>
+<span id="w12-10" class="word">moje",</span>
+<span id="w12-11" class="word">rekao</span>
+<span id="w12-12" class="word">je</span>
+<span id="w12-13" class="word">Robert.</span>
+<span id="w12-14" class="word"></span><br/><br/>
+<span id="w12-15" class="word">"Moje</span>
+<span id="w12-16" class="word">isto",</span>
+<span id="w12-17" class="word">rekao</span>
+<span id="w12-18" class="word">je</span>
+<span id="w12-19" class="word">Milan.</span>
+<span id="w12-20" class="word"></span>
+<br/>
+
+
+
+							</div>
+						</div>
+						<div class="bb-custom-side">
+							<img class="dvanaesetR" src="images/12R.png" />
+							
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="trinaesetTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause13" onclick="PlayPause13()"><audio class="audio" id="trinaeset_strana" src="audio/13.mp3" preload="auto"/></a>
+							<img class="trinaesetL" src="images/13L.png" />
+							
+						</div>
+						<div class="bb-custom-side">
+							<img class="trinaesetR" src="images/13R.png" />
+							<div class="text textCont13" id="t13">
+									
+<span id="w13-1" class="word">I</span>
+<span id="w13-2" class="word">mama</span>
+<span id="w13-3" class="word">je</span>
+<span id="w13-4" class="word">podijelila</span>
+<span id="w13-5" class="word">svoju</span>
+<span id="w13-6" class="word">naranču</span>
+<span id="w13-7" class="word">s</span>
+<span id="w13-8" class="word">Josipom.</span>
+<span id="w13-9" class="word"></span>
+<br/>
+
+
+							</div>
+						</div>
+					</div>
+					
+					<div class="section bb-item" onclick="cetirinaesetTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause14" onclick="PlayPause14()"><audio class="audio" id="cetirinaeset_strana" src="audio/14.mp3" preload="auto"/></a>
+							<img class="cetirinaesetL" src="images/14L.png" />
+						</div>
+						<div class="bb-custom-side">
+							<img class="cetirinaesetR" src="images/14R.png" />
+							<div class="text textCont14" id="t14">
+<span id="w14-1" class="word">Odjednom,</span>
+<span id="w14-2" class="word">Josipove</span>
+<span id="w14-3" class="word">ruke</span>
+<span id="w14-4" class="word">bile</span>
+<span id="w14-5" class="word">su</span>
+<span id="w14-6" class="word">pune</span>
+<span id="w14-7" class="word">sočnih</span>
+<span id="w14-8" class="word">kriški</span>
+<span id="w14-9" class="word">naranče.</span><br/><br/>
+<span id="w14-10" class="word">"Ima</span>
+<span id="w14-11" class="word"></span>
+<span id="w14-12" class="word">dovoljno</span>
+<span id="w14-13" class="word">naranči</span>
+<span id="w14-14" class="word">za</span>
+<span id="w14-15" class="word">sve!"</span>
+<span id="w14-16" class="word">rekao</span>
+<span id="w14-17" class="word">je</span>
+<span id="w14-18" class="word">Josip.</span>
+<span id="w14-19" class="word"></span>
+<br/>
+
+
+
+							</div>
+						</div>
+					</div>
+					<div class="section bb-item" onclick="petnaesetTouch()">
+						<div class="bb-custom-side">
+							<a class="play_pause" id="play_pause15" onclick="PlayPause15()"><audio class="audio" id="petnaeset_strana" src="audio/15.mp3" preload="auto"/></a>
+							<img class="cetirinaesetL" src="images/15L.png" />
+						</div>
+						<div class="bb-custom-side">
+							<img class="petnaesetR" src="images/15R.png" />
+							<div class="text textCont15" id="t15">
+<span id="w15-1" class="word">Zatim</span>
+<span id="w15-2" class="word">su</span>
+<span id="w15-3" class="word">svi</span>
+<span id="w15-4" class="word">sjeli</span>
+<span id="w15-5" class="word">za</span>
+<span id="w15-6" class="word">stol</span>
+<span id="w15-7" class="word">i</span>
+<span id="w15-8" class="word">zajedno</span>
+<span id="w15-9" class="word">jeli</span>
+<span id="w15-10" class="word">naranče.</span>
+<span id="w15-11" class="word"></span><br/><br/>
+<span id="w15-12" class="word">Bio</span>
+<span id="w15-13" class="word">je</span>
+<span id="w15-14" class="word">to</span>
+<span id="w15-15" class="word">sladak</span>
+<span id="w15-16" class="word">kraj</span>
+<span id="w15-17" class="word">dana.</span>
+<span id="w15-18" class="word"></span>
+<br/>
+
+
+
+							</div>
+						</div>
+					</div>
+					<div class="section bb-item">
+						<div class="kukla" src="images/kukla.png" onclick="this.firstChild.play()"><audio src="audio/owlSound.mp3" preload="auto" /></div>
+						<div class="bb-custom-side">
+							<div class="zajko2"></div>
+							<div class="shadowKraj">
+								<img class="tretaR" src="images/end.png" />
+							</div>
+						</div>
+						<div class="bb-custom-side">
+							<img class="klupa" src="images/table.jpg" />
+							<img class="replayBtn" id="rplBtn" src="images/replay.png" />
+						</div>
+					</div>
+				</div>
+
+				<nav id="mainNav">
+					<a id="bb-nav-prev" href="#" class="bb-custom-icon bb-custom-icon-arrow-left" onclick="ClearFlags(); flipSound()">Previous</a>
+					<a id="bb-nav-next" href="#" class="bb-custom-icon bb-custom-icon-arrow-right" onclick="ClearFlags(); flipSound()">Next</a>
+					<!--<a id="bb-nav-last" href="#" class="bb-custom-icon bb-custom-icon-last" onclick="ClearFlags()">Last page</a>-->
+				</nav>
+				<audio src="audio/flipPage.mp3" preload="auto" id="flip" />
+			</div>
+		</div><!-- /container -->
+		<script src="js/JQuery.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+		<script src="js/jquerypp.custom.js"></script>
+		<script src="js/jquery.bookblock.js"></script>
+		<script src="js/popcorn-complete.js"></script>
+		
+		<script>
+		
+		function flipSound() {
+			document.getElementById("flip").play();
+		}
+		
+		// funkcija koja gi trga kopcinjata ako rezolucijata na ekranot e pomala od 800x600 (telefoni - se da raboti na TAP i SLIDE) 
+		$(window).resize( function phoneMode() {
+			if ( ($(window).width() < 800) && ($(window).height() < 600) ) {
+				$("#mainNav").hide();
+				$(".play_pause").hide();
+				document.getElementById("autoplayOn").style.top="-70%";
+				document.getElementById("autoplayOn").style.left="-15%";
+				document.getElementById("autoplayOn").style.width="60px";
+				document.getElementById("autoplayOn").style.height="60px";
+			}
+			else
+				{
+					$("#mainNav").show();
+					$(".play_pause").show();
+					document.getElementById("autoplayOn").style.top="-10%";
+					document.getElementById("autoplayOn").style.left="-30%";
+					document.getElementById("autoplayOn").style.width="120px";
+					document.getElementById("autoplayOn").style.height="120px";
+				}
+		});
+		
+		//FLAGS
+		var autoplayFlag=0;
+		var flag = 1;
+		var current = 0;
+		var ppFlag = 1;	// 1 e pauzirano, 0 e playing (GLOBALNA ZA SITE)
+		//FLAGS
+		
+			timeout = new Timer(function(){},0);
+		
+			function Timer(callback, delay) {
+			var timerId, start, remaining = delay;
+			
+			this.stop = function() {
+			window.clearTimeout(timerId); 
+			remaining = 0; }
+			
+			this.pause = function() {
+				window.clearTimeout(timerId);
+				remaining -= new Date() - start;
+			};
+
+			this.resume = function() {
+				start = new Date();
+				timerId = window.setTimeout(callback, remaining);
+			};
+
+			this.resume();
+			}
+			
+			function resumeTimer(){
+			if (autoplayFlag==1){
+				timeout.resume();
+				}			
+			}
+			
+			function pauseTimer(){
+				if (autoplayFlag==1){
+				timeout.pause();
+				}			
+			}
+			
+				//gi podesuva fontovite za browseri
+		/*if(/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())){
+		$(".text").css({"font-family": "SkolaSansCnOffc"});
+		}
+		
+		if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)){ //test for Firefox/x.x or Firefox x.x (ignoring remaining digits);
+		
+		$(".text").css({"font-family": "SkolaSansCn"});
+		}*/
+		// onclick funckii na div "bb-item" za play/pause (touch na mobilni uredi - da nema kopcinja)
+		function initTouch() {
+			var intro = document.getElementById("intro");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0; 
+				resumeTimer();
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1; 
+				pauseTimer();
+			}
+		}
+		
+		function prvaTouch() {
+			var intro = document.getElementById("prva_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0; 
+				resumeTimer();
+
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1; 
+				pauseTimer();
+			}
+		} 
+		
+		function vtoraTouch() {
+			var intro = document.getElementById("vtora_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0; 
+				resumeTimer();
+				
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1; 								
+				pauseTimer();
+			}
+		}
+		
+		function tretaTouch() {
+			var intro = document.getElementById("treta_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0; 
+			    resumeTimer();
+				
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;
+			    
+				pauseTimer();				
+			}
+		}
+		
+		function cetvrtaTouch() {
+			var intro = document.getElementById("cetvrta_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0;
+			    resumeTimer();
+								
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			    
+				pauseTimer(); 
+			}
+		}
+		
+		function pettaTouch() {
+			var intro = document.getElementById("petta_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0; 
+							    resumeTimer();
+				
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			    
+				pauseTimer(); 
+			}
+		}
+		
+		function sestaTouch() {
+			var intro = document.getElementById("sesta_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0;
+			    resumeTimer();
+								
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			    
+				pauseTimer(); 
+			}
+		}
+		
+		function sedmaTouch() {
+			var intro = document.getElementById("sedma_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0;
+			    resumeTimer();
+								
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			    
+				pauseTimer(); 
+			}
+		}
+		
+		function osmaTouch() {
+			var intro = document.getElementById("osma_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0;
+			    resumeTimer();
+								
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			    
+				pauseTimer(); 
+			}
+		}
+		
+		function devettaTouch() {
+			var intro = document.getElementById("devetta_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0;
+			    resumeTimer();
+								
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			    
+				pauseTimer(); 
+			}
+		}
+		
+		function desettaTouch() {
+			var intro = document.getElementById("desetta_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0;
+			    resumeTimer();
+								
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;
+			    
+				pauseTimer();				
+			}
+		}
+		
+		function edinaesetTouch() {
+			var intro = document.getElementById("edinaeset_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0;			    resumeTimer();
+				 
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			    
+				pauseTimer(); 
+			}
+		}
+		
+		function dvanaesetTouch() {
+			var intro = document.getElementById("dvanaeset_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0;
+			    resumeTimer();
+								
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			    
+				pauseTimer(); 
+			}
+		}
+		
+		function trinaesetTouch() {
+			var intro = document.getElementById("trinaeset_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0;
+			    resumeTimer();
+								
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			   
+				pauseTimer(); 
+			}
+		}
+		
+		function cetirinaesetTouch() {
+			var intro = document.getElementById("cetirinaeset_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0; 
+				resumeTimer();
+				
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1;			    
+				pauseTimer(); 
+			}
+		}
+		
+		function petnaesetTouch() {
+			var intro = document.getElementById("petnaeset_strana");
+			if ( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0; 
+			} else if ( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1; 
+			}
+		}
+		
+		// funkcija za avtomatsko pustanje na intro-audio pri uklucuvanje na stranata
+		function playIntro(){
+			var snd=document.getElementById('intro');
+			canPlayMP3 = (typeof snd.canPlayType === "function" && snd.canPlayType("audio/mpeg") !== "");
+			snd.src=canPlayMP3?'audio/Intro.mp3':'audio/Intro.ogg';
+			snd.load();
+			snd.play();	
+		}
+				function stopIntro(){
+			var snd=document.getElementById('intro');
+			canPlayMP3 = (typeof snd.canPlayType === "function" && snd.canPlayType("audio/mpeg") !== "");
+			snd.src=canPlayMP3?'audio/Intro.mp3':'audio/Intro.ogg';
+			snd.load();
+			snd.pause();
+			snd.currentTime=0;
+		}
+
+		// funkcii za sync na tekstot i audioto za soodvetnata strana pri klik na play/pause so koristenje na plugin popcorn.js	
+		function ClearFlags(){
+			ppFlag=1;
+			flag=1;
+		}
+
+		function SetFlags(){
+			ppFlag=0;
+			flag=0;
+		}		
+										
+		var makeDelay= function(x){ 
+							timeout.stop();
+								if(x==0){}
+								else{
+							timeout = new Timer(function(){ 
+								//if(current == 0 || current == 1){
+								$('#bb-bookblock').bookblock('next');
+								ClearFlags();
+							}/*}*/,x*1000);}
+		}
+		
+	
+		
+		//funkcija koja se aktivira pri klik vrz slonceto za play/pause za intro stranata
+		function PlayPause0() {
+			var intro = document.getElementById("intro");
+			if( ppFlag == 1 ) { 
+				intro.play(); 
+				ppFlag = 0; 
+			} else if( ppFlag == 0 ) { 
+				intro.pause(); 
+				ppFlag = 1; 
+			}
+		}
+			
+		//funkcija koja se aktivira pri klik vrz slonceto za play/pause za prvata stranata potoa sledi delot so sync na zbor/audio za prva strana (popcorn.js) za site strani.
+		//PRVA STRANA!
+		function PlayPause1() { 
+			if( ppFlag == 1 ) { 
+				pop1.play();  
+			} else if( ppFlag == 0 ) { 
+				pop1.pause(); 
+			} 
+		}
+		
+		var pop1 = Popcorn("#prva_strana");
+var wordTimes1 = {
+"w1-1": { start: 0.02, end: 1.61 },//Jednoga
+"w1-2": { start: 1.61, end: 2.14 },//dana
+"w1-3": { start: 2.48, end: 2.91 },//mama
+"w1-4": { start: 2.91, end: 3.19 },//je
+"w1-5": { start: 3.09, end: 3.37 },//iz
+"w1-6": { start: 3.28, end: 3.83 },//trgovine
+"w1-7": { start: 3.83, end: 4.31 },//donijela
+"w1-8": { start: 4.31, end: 4.68 },//kući
+"w1-9": { start: 4.68, end: 5.15 },//torbu
+"w1-10": { start: 5.28, end: 5.69 },//punu
+"w1-11": { start: 5.69, end: 6.38 },//naranči.
+"w1-12": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+			
+		pop1.on("ended",function(){
+				if(current==1){
+							ClearFlags();							
+				}});
+				
+		$.each(wordTimes1, function(id, time) {
+								pop1.footnote({
+									start: time.start,
+									end: time.end,
+									text: '',
+									target: id,
+									effect: "applyclass",
+									applyclass: "selected1"
+								});
+		});		
+		
+		//VTORA STRANA!
+		function PlayPause2() {
+			if( ppFlag == 1 ) { 
+				pop2.play();
+			} else if( ppFlag == 0 ) { 
+				pop2.pause(); 
+			} 
+		}
+	
+			var pop2 = Popcorn("#vtora_strana");
+
+var wordTimes2 = {
+"w2-1": { start: 0.02, end: 1.31 },//"Obožavam
+"w2-2": { start: 1.31, end: 1.98 },//naranče!"
+"w2-3": { start: 2.24, end: 2.79 },//rekao
+"w2-4": { start: 2.79, end: 3.07 },//je
+"w2-5": { start: 2.96, end: 3.51 },//Josip.
+"w2-6": { start: 4.26, end: 4.78 },//Uzeo
+"w2-7": { start: 4.78, end: 5.06 },//je
+"w2-8": { start: 4.99, end: 5.46 },//torbu
+"w2-9": { start: 5.46, end: 5.74 },//u
+"w2-10": { start: 5.63, end: 6.09 },//sobu
+"w2-11": { start: 6.20, end: 6.48 },//i
+"w2-12": { start: 0.00, end: 0.00 },//
+"w2-13": { start: 6.48, end: 6.91 },//počeo
+"w2-14": { start: 6.91, end: 7.19 },//ih
+"w2-15": { start: 7.15, end: 7.43 },//je
+"w2-16": { start: 7.26, end: 7.82 },//brojati.
+"w2-17": { start: 0.00, end: 0.00 },//
+"w2-18": { start: 8.84, end: 9.44 },//"Jedna,
+"w2-19": { start: 9.75, end: 10.40 },//dvije,
+"w2-20": { start: 10.91, end: 11.41 },//tri,
+"w2-21": { start: 11.92, end: 12.62 },//četiri,
+"w2-22": { start: 13.04, end: 13.52 },//pet
+"w2-23": { start: 13.52, end: 14.31 },//naranči!
+"w2-24": { start: 14.74, end: 15.15 },//Sve
+"w2-25": { start: 15.15, end: 15.43 },//ću
+"w2-26": { start: 15.26, end: 15.54 },//ih
+"w2-27": { start: 0.00, end: 0.00 },//
+"w2-28": { start: 15.49, end: 15.87 },//pojesti
+"w2-29": { start: 15.87, end: 16.38 },//sam!"
+"w2-30": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+			
+			pop2.on("ended",function(){
+				if(current==2){
+							ClearFlags();										
+				}});
+				
+			$.each(wordTimes2, function(id, time) {
+				pop2.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected2"
+				});
+			});		
+
+		//TRETA STRANA!
+		function PlayPause3() {
+			if( ppFlag == 1 ) { 
+				pop3.play();
+			} else if( ppFlag == 0 ) { 
+				pop3.pause(); 
+			} 
+		}
+			
+			var pop3 = Popcorn("#treta_strana");
+var wordTimes3 = {
+"w3-1": { start: 0.02, end: 1.11 },//Netko
+"w3-2": { start: 1.11, end: 1.39 },//je
+"w3-3": { start: 1.24, end: 1.71 },//zalupio
+"w3-4": { start: 1.71, end: 2.23 },//ulaznim
+"w3-5": { start: 2.23, end: 2.84 },//vratima.
+"w3-6": { start: 0.00, end: 0.00 },//
+"w3-7": { start: 3.48, end: 3.96 },//Tata
+"w3-8": { start: 3.96, end: 4.24 },//se
+"w3-9": { start: 4.15, end: 4.55 },//vratio
+"w3-10": { start: 4.55, end: 4.83 },//s
+"w3-11": { start: 4.76, end: 5.25 },//posla.
+"w3-12": { start: 6.00, end: 6.69 },//Izgledao
+"w3-13": { start: 6.69, end: 6.97 },//je
+"w3-14": { start: 6.93, end: 7.42 },//jako
+"w3-15": { start: 7.42, end: 8.00 },//umorno.
+"w3-16": { start: 0.00, end: 0.00 },//
+"w3-17": { start: 9.19, end: 9.68 },//"Možda
+"w3-18": { start: 9.68, end: 9.96 },//će
+"w3-19": { start: 9.83, end: 10.11 },//ga
+"w3-20": { start: 9.90, end: 10.26 },//jedna
+"w3-21": { start: 10.26, end: 10.95 },//slasna
+"w3-22": { start: 10.95, end: 11.53 },//naranča
+"w3-23": { start: 11.53, end: 12.58 },//razveseliti",
+"w3-24": { start: 13.12, end: 13.88 },//pomislio
+"w3-25": { start: 13.88, end: 14.12 },//je
+"w3-26": { start: 14.06, end: 14.67 },//Josip.
+"w3-27": { start: 0.00, end: 0.00 },//
+"w3-28": { start: 15.57, end: 15.99 },//"Još
+"w3-29": { start: 15.99, end: 16.29 },//uvijek
+"w3-30": { start: 16.29, end: 16.57 },//će
+"w3-31": { start: 16.41, end: 16.69 },//mi
+"w3-32": { start: 16.51, end: 17.00 },//ostati
+"w3-33": { start: 17.00, end: 17.35 },//puno
+"w3-34": { start: 17.36, end: 18.03 }//naranči."
+};
+
+
+
+
+
+
+
+			
+			pop3.on("ended",function(){
+				if(current==3){
+							ClearFlags();
+				}});
+			
+			$.each(wordTimes3, function(id, time) {
+				pop3.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected3"
+				});
+			});	
+
+		//CETVRTA STRANA!
+		function PlayPause4() {
+			if( ppFlag == 1 ) { 
+				pop4.play();
+			} else if( ppFlag == 0 ) { 
+				pop4.pause(); 
+			} 
+		}
+			
+			var pop4 = Popcorn("#cetvrta_strana");
+var wordTimes4 = {
+"w4-1": { start: 0.60, end: 1.48 },//Josip
+"w4-2": { start: 1.48, end: 1.76 },//je
+"w4-3": { start: 1.70, end: 7.99 },//dao
+"w4-4": { start: 1.99, end: 2.50 },//tati
+"w4-5": { start: 2.62, end: 3.28 },//najmanju
+"w4-6": { start: 3.28, end: 3.94 },//naranču.
+"w4-7": { start: 0.00, end: 0.00 },//
+"w4-8": { start: 4.82, end: 5.32 },//"Izvoli",
+"w4-9": { start: 5.32, end: 5.79 },//rekao
+"w4-10": { start: 5.79, end: 6.07 },//je.
+"w4-11": { start: 6.52, end: 6.88 },//"Ovo
+"w4-12": { start: 6.88, end: 7.16 },//je
+"w4-13": { start: 7.08, end: 7.36 },//za
+"w4-14": { start: 7.29, end: 7.75 },//tebe."
+"w4-15": { start: 0.00, end: 0.00 },//
+"w4-16": { start: 8.62, end: 8.96 },//Tata
+"w4-17": { start: 8.96, end: 9.24 },//je
+"w4-18": { start: 9.13, end: 9.41 },//bio
+"w4-19": { start: 9.40, end: 9.81 },//jako
+"w4-20": { start: 9.81, end: 10.50 }//sretan.
+};
+
+
+
+
+
+
+
+			
+			pop4.on("ended",function(){
+				if(current==4){
+							ClearFlags();										
+				}});
+			
+			$.each(wordTimes4, function(id, time) {
+				pop4.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected4"
+				});
+			});	
+		
+		//PETTA STRANA!
+		function PlayPause5() {
+			if( ppFlag == 1 ) { 
+				pop5.play();
+			} else if( ppFlag == 0 ) { 
+				pop5.pause(); 
+			} 
+		}
+			
+			var pop5 = Popcorn("#petta_strana");
+var wordTimes5 = {
+"w5-1": { start: 0.70, end: 1.39 },//Onda
+"w5-2": { start: 1.39, end: 1.67 },//je
+"w5-3": { start: 1.57, end: 1.93 },//Josip
+"w5-4": { start: 1.93, end: 2.41 },//otišao
+"w5-5": { start: 2.41, end: 2.69 },//u
+"w5-6": { start: 2.50, end: 2.82 },//svoju
+"w5-7": { start: 2.82, end: 3.26 },//sobu
+"w5-8": { start: 3.26, end: 3.71 },//brojati
+"w5-9": { start: 3.71, end: 4.41 },//naranče.
+"w5-10": { start: 5.28, end: 5.97 },//"Jedna,
+"w5-11": { start: 0.00, end: 0.00 },//
+"w5-12": { start: 6.24, end: 6.96 },//dvije,
+"w5-13": { start: 7.42, end: 8.07 },//tri,
+"w5-14": { start: 8.50, end: 9.15 },//četiri
+"w5-15": { start: 9.15, end: 9.73 },//naranče
+"w5-16": { start: 9.73, end: 10.18 },//samo
+"w5-17": { start: 10.18, end: 10.46 },//za
+"w5-18": { start: 10.35, end: 10.77 },//mene."
+"w5-19": { start: 0.00, end: 0.00 },//
+"w5-20": { start: 11.80, end: 12.60 },//"Josipe!"
+"w5-21": { start: 13.05, end: 13.60 },//zazvala
+"w5-22": { start: 13.60, end: 13.88 },//je
+"w5-23": { start: 13.77, end: 14.19 },//mama.
+"w5-24": { start: 0.00, end: 0.00 },//
+"w5-25": { start: 15.03, end: 15.85 },//"Jasmina,
+"w5-26": { start: 15.85, end: 16.35 },//Robert
+"w5-27": { start: 16.35, end: 16.63 },//i
+"w5-28": { start: 16.55, end: 16.93 },//Milan
+"w5-29": { start: 16.93, end: 17.21 },//su
+"w5-30": { start: 17.08, end: 17.36 },//se
+"w5-31": { start: 17.28, end: 17.62 },//došli
+"w5-32": { start: 17.62, end: 18.21 },//igrati.
+"w5-33": { start: 0.00, end: 0.00 },//
+"w5-34": { start: 18.93, end: 19.33 },//Baš
+"w5-35": { start: 19.33, end: 19.74 },//šteta
+"w5-36": { start: 19.74, end: 20.04 },//što
+"w5-37": { start: 19.91, end: 20.19 },//im
+"w5-38": { start: 20.10, end: 20.53 },//nemamo
+"w5-39": { start: 20.53, end: 20.86 },//ništa
+"w5-40": { start: 20.86, end: 21.31 },//slatko
+"w5-41": { start: 21.31, end: 21.59 },//za
+"w5-42": { start: 21.52, end: 22.19 },//ponuditi."
+"w5-43": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+
+
+
+			
+			pop5.on("ended",function(){
+				if(current==5){
+							ClearFlags();
+										
+				}});
+			
+			$.each(wordTimes5, function(id, time) {
+				pop5.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected5"
+				});
+			});	
+		//SESTA STRANA!
+		function PlayPause6() {
+			if( ppFlag == 1 ) { 
+				pop6.play();
+			} else if( ppFlag == 0 ) { 
+				pop6.pause(); 
+			} 
+		}
+			
+			var pop6 = Popcorn("#sesta_strana");
+var wordTimes6 = {
+"w6-1": { start: 0.80, end: 1.45 },//Josip
+"w6-2": { start: 1.45, end: 1.73 },//je
+"w6-3": { start: 1.65, end: 2.14 },//pokušao
+"w6-4": { start: 2.14, end: 2.69 },//sakriti
+"w6-5": { start: 2.69, end: 3.19 },//naranče
+"w6-6": { start: 3.19, end: 3.47 },//iza
+"w6-7": { start: 3.47, end: 4.04 },//leđa,
+"w6-8": { start: 4.48, end: 4.80 },//ali
+"w6-9": { start: 4.80, end: 5.28 },//njegove
+"w6-10": { start: 5.28, end: 5.60 },//ruke
+"w6-11": { start: 0.00, end: 0.00 },//
+"w6-12": { start: 5.60, end: 5.88 },//su
+"w6-13": { start: 5.78, end: 6.11 },//imale
+"w6-14": { start: 6.11, end: 6.44 },//druge
+"w6-15": { start: 6.44, end: 7.00 },//ideje!
+"w6-16": { start: 7.37, end: 8.05 },//Pružile
+"w6-17": { start: 8.05, end: 8.33 },//su
+"w6-18": { start: 8.24, end: 8.72 },//naranče
+"w6-19": { start: 8.72, end: 9.52 },//Jasmini,
+"w6-20": { start: 9.72, end: 10.62 },//Robertu
+"w6-21": { start: 10.62, end: 10.92 },//i
+"w6-22": { start: 10.92, end: 11.52 },//Milanu.
+"w6-23": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+
+			
+			pop6.on("ended",function(){
+				if(current==6){
+							ClearFlags();
+											
+				}});
+			
+			$.each(wordTimes6, function(id, time) {
+				pop6.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected6"
+				});
+			});	
+		//SEDMA STRANA!
+		function PlayPause7() {
+			if( ppFlag == 1 ) { 
+				pop7.play();
+			} else if( ppFlag == 0 ) { 
+				pop7.pause(); 
+			} 
+		}
+			
+			var pop7 = Popcorn("#sedma_strana");
+var wordTimes7 = {
+"w7-1": { start: 0.30, end: 1.01 },//Svatko
+"w7-2": { start: 1.01, end: 1.29 },//je
+"w7-3": { start: 1.06, end: 1.34 },//od
+"w7-4": { start: 1.17, end: 1.45 },//njih
+"w7-5": { start: 1.45, end: 1.76 },//uzeo
+"w7-6": { start: 1.76, end: 2.31 },//najveću
+"w7-7": { start: 2.31, end: 2.90 },//naranču
+"w7-8": { start: 2.90, end: 3.18 },//koju
+"w7-9": { start: 3.09, end: 3.37 },//je
+"w7-10": { start: 3.20, end: 3.88 },//spazio.
+"w7-11": { start: 0.00, end: 0.00 },//
+"w7-12": { start: 4.82, end: 5.49 },//"Hvala!"
+"w7-13": { start: 5.74, end: 6.27 },//rekli
+"w7-14": { start: 6.27, end: 6.55 },//su
+"w7-15": { start: 6.45, end: 6.75 },//sve
+"w7-16": { start: 6.75, end: 7.26 },//troje.
+"w7-17": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+
+			
+			pop7.on("ended",function(){
+				if(current==7){
+							ClearFlags();
+									
+				}});
+			
+			$.each(wordTimes7, function(id, time) {
+				pop7.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected7"
+				});
+			});		
+		//OSMA STRANA!
+				function PlayPause8() {
+			if( ppFlag == 1 ) { 
+				pop8.play();
+			} else if( ppFlag == 0 ) { 
+				pop8.pause(); 
+			} 
+		}
+			
+			var pop8 = Popcorn("#osma_strana");
+var wordTimes8 = {
+"w8-1": { start: 0.50, end: 1.12 },//Josip
+"w8-2": { start: 1.12, end: 1.40 },//je
+"w8-3": { start: 1.27, end: 1.79 },//sakrio
+"w8-4": { start: 1.79, end: 2.15 },//torbu
+"w8-5": { start: 2.15, end: 2.43 },//s
+"w8-6": { start: 2.32, end: 2.94 },//narančama
+"w8-7": { start: 2.94, end: 3.36 },//ispod
+"w8-8": { start: 3.36, end: 3.95 },//kreveta.
+"w8-9": { start: 4.56, end: 4.93 },//Ali
+"w8-10": { start: 4.93, end: 5.39 },//upravo
+"w8-11": { start: 5.39, end: 5.89 },//tada,
+"w8-12": { start: 6.04, end: 6.37 },//mama
+"w8-13": { start: 0.00, end: 0.00 },//
+"w8-14": { start: 6.37, end: 6.65 },//je
+"w8-15": { start: 6.50, end: 7.41 },//uzdahnula:
+"w8-16": { start: 8.15, end: 8.57 },//"Tako
+"w8-17": { start: 8.57, end: 8.85 },//sam
+"w8-18": { start: 8.84, end: 9.52 },//žedna."
+"w8-19": { start: 0.00, end: 0.00 },//
+"w8-20": { start: 10.35, end: 10.77 },//Josip
+"w8-21": { start: 10.77, end: 11.05 },//je
+"w8-22": { start: 10.94, end: 11.26 },//znao
+"w8-23": { start: 11.26, end: 11.54 },//što
+"w8-24": { start: 11.50, end: 11.78 },//bi
+"w8-25": { start: 11.62, end: 11.90 },//joj
+"w8-26": { start: 11.76, end: 12.09 },//moglo
+"w8-27": { start: 12.09, end: 12.67 },//pomoći.
+"w8-28": { start: 0.00, end: 0.00 },//
+"w8-29": { start: 13.60, end: 14.07 },//"Evo",
+"w8-30": { start: 14.38, end: 14.89 },//rekao
+"w8-31": { start: 14.89, end: 15.18 },//je,
+"w8-32": { start: 15.62, end: 16.07 },//"ovo
+"w8-33": { start: 16.07, end: 16.35 },//je
+"w8-34": { start: 16.21, end: 16.42 },//za
+"w8-35": { start: 16.42, end: 16.85 },//tebe."
+"w8-36": { start: 17.48, end: 17.96 },//Dao
+"w8-37": { start: 17.96, end: 18.24 },//je
+"w8-38": { start: 18.18, end: 18.62 },//mami
+"w8-39": { start: 18.72, end: 19.09 },//jednu
+"w8-40": { start: 19.09, end: 19.88 },//naranču.
+"w8-41": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+
+
+			
+			pop8.on("ended",function(){
+				if(current==8){
+							ClearFlags();
+											
+				}});
+			
+			$.each(wordTimes8, function(id, time) {
+				pop8.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected8"
+				});
+			});
+		//DEVETTA STRANA!
+			function PlayPause9() {
+				if( ppFlag == 1 ) { 
+					pop9.play();
+				} else if( ppFlag == 0 ) { 
+					pop9.pause(); 
+				} 
+			}
+			
+			var pop9 = Popcorn("#devetta_strana");
+
+var wordTimes9 = {
+"w9-1": { start: 0.50, end: 0.87 },//I
+"w9-2": { start: 0.87, end: 1.15 },//dok
+"w9-3": { start: 1.03, end: 1.31 },//su
+"w9-4": { start: 1.20, end: 1.55 },//svi
+"w9-5": { start: 1.55, end: 2.00 },//gulili
+"w9-6": { start: 2.00, end: 2.40 },//svoje
+"w9-7": { start: 2.40, end: 3.12 },//naranče,
+"w9-8": { start: 0.00, end: 0.00 },//
+"w9-9": { start: 3.52, end: 3.97 },//Josip
+"w9-10": { start: 3.97, end: 4.25 },//je
+"w9-11": { start: 4.10, end: 4.61 },//otišao
+"w9-12": { start: 4.61, end: 4.89 },//u
+"w9-13": { start: 4.77, end: 5.15 },//svoju
+"w9-14": { start: 5.15, end: 5.69 },//sobu.
+"w9-15": { start: 0.00, end: 0.00 },//
+"w9-16": { start: 6.37, end: 7.04 },//Izvukao
+"w9-17": { start: 7.04, end: 7.32 },//je
+"w9-18": { start: 7.25, end: 7.57 },//torbu
+"w9-19": { start: 7.57, end: 7.85 },//s
+"w9-20": { start: 7.81, end: 8.50 },//narančama.
+"w9-21": { start: 0.00, end: 0.00 },//
+"w9-22": { start: 9.12, end: 9.54 },//Bila
+"w9-23": { start: 9.54, end: 9.82 },//je
+"w9-24": { start: 9.75, end: 10.45 },//prazna!
+"w9-25": { start: 0.00, end: 0.00 },//
+"w9-26": { start: 11.14, end: 11.76 },//"NEMA
+"w9-27": { start: 11.76, end: 12.04 },//NI
+"w9-28": { start: 11.96, end: 12.56 },//JEDNE
+"w9-29": { start: 12.56, end: 13.04 },//NARANČE
+"w9-30": { start: 13.04, end: 13.32 },//ZA
+"w9-31": { start: 13.21, end: 13.64 },//MENE!"
+"w9-32": { start: 14.15, end: 14.98 },//zaplakao
+"w9-33": { start: 14.98, end: 15.30 },//je.
+"w9-34": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+
+
+			
+			pop9.on("ended",function(){
+				if(current==9){
+							ClearFlags();
+											
+				}});
+			
+			$.each(wordTimes9, function(id, time) {
+				pop9.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected9"
+				});
+			});	
+			
+		//DESETTA STRANA!
+			function PlayPause10() {
+				if( ppFlag == 1 ) { 
+					pop10.play();
+				} else if( ppFlag == 0 ) { 
+					pop10.pause(); 
+				}
+			}
+			
+			var pop10 = Popcorn("#desetta_strana");
+var wordTimes10 = {
+"w10-1": { start: 0.50, end: 1.50 },//Mama,
+"w10-2": { start: 1.84, end: 2.57 },//tata,
+"w10-3": { start: 2.86, end: 3.74 },//Jasmina,
+"w10-4": { start: 4.17, end: 4.84 },//Robert
+"w10-5": { start: 5.00, end: 5.35 },//i
+"w10-6": { start: 5.35, end: 5.82 },//Milan
+"w10-7": { start: 6.20, end: 6.92 },//otrčali
+"w10-8": { start: 6.92, end: 7.20 },//su
+"w10-9": { start: 7.10, end: 7.38 },//u
+"w10-10": { start: 0.00, end: 0.00 },//
+"w10-11": { start: 7.23, end: 7.78 },//Josipovu
+"w10-12": { start: 7.78, end: 8.28 },//sobu.
+"w10-13": { start: 0.00, end: 0.00 },//
+"w10-14": { start: 9.07, end: 9.55 },//Josip
+"w10-15": { start: 9.55, end: 9.83 },//im
+"w10-16": { start: 9.67, end: 9.95 },//je
+"w10-17": { start: 9.84, end: 10.43 },//pokazao
+"w10-18": { start: 10.43, end: 10.90 },//praznu
+"w10-19": { start: 10.90, end: 11.42 },//torbu.
+"w10-20": { start: 0.00, end: 0.00 },//
+"w10-21": { start: 12.10, end: 12.41 },//“ZA
+"w10-22": { start: 12.41, end: 12.69 },//MENE
+"w10-23": { start: 12.66, end: 12.94 },//NIJE
+"w10-24": { start: 12.92, end: 13.38 },//OSTALA
+"w10-25": { start: 13.38, end: 13.66 },//NI
+"w10-26": { start: 13.60, end: 13.96 },//JEDNA
+"w10-27": { start: 13.96, end: 14.64 },//NARANČA!"
+"w10-28": { start: 15.00, end: 15.70 },//jecao
+"w10-29": { start: 15.70, end: 16.00 },//je.
+"w10-30": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+
+			
+			pop10.on("ended",function(){
+				if(current==10){
+							ClearFlags();
+										
+				}});
+			
+			$.each(wordTimes10, function(id, time) {
+				pop10.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected10"
+				});
+			});
+			
+		//EDINAESETTA STRANA!
+			function PlayPause11() {
+				if( ppFlag == 1 ) { 
+					pop11.play();
+				} else if( ppFlag == 0 ) { 
+					pop11.pause(); 
+				}
+			}
+			
+			var pop11 = Popcorn("#edinaeset_strana");
+var wordTimes11 = {
+"w11-1": { start: 0.20, end: 0.83 },//"Evo",
+"w11-2": { start: 1.12, end: 1.62 },//rekao
+"w11-3": { start: 1.62, end: 1.90 },//je
+"w11-4": { start: 1.78, end: 2.26 },//tata,
+"w11-5": { start: 2.52, end: 3.06 },//"uzmi
+"w11-6": { start: 3.06, end: 3.41 },//komad
+"w11-7": { start: 3.41, end: 3.75 },//moje
+"w11-8": { start: 3.75, end: 4.35 },//naranče."
+"w11-9": { start: 0.00, end: 0.00 },//
+"w11-10": { start: 5.33, end: 6.08 },//Raspolovio
+"w11-11": { start: 6.08, end: 6.36 },//je
+"w11-12": { start: 6.22, end: 6.57 },//svoju
+"w11-13": { start: 6.57, end: 7.30 },//naranču
+"w11-14": { start: 7.50, end: 7.78 },//i
+"w11-15": { start: 7.78, end: 8.09 },//jednu
+"w11-16": { start: 8.09, end: 8.61 },//polovicu
+"w11-17": { start: 8.61, end: 8.89 },//dao
+"w11-18": { start: 8.88, end: 9.62 }//Josipu.
+};
+
+
+
+
+
+
+
+			
+				pop11.on("ended",function(){
+				if(current==11){
+							ClearFlags();
+										
+				}});
+			
+			$.each(wordTimes11, function(id, time) {
+				pop11.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected11"
+				});
+			});
+			
+			//DVANAESETTA STRANA!
+			function PlayPause12() {
+				if( ppFlag == 1 ) { 
+					pop12.play();
+				} else if( ppFlag == 0 ) { 
+					pop12.pause(); 
+				}
+			}
+			
+			var pop12 = Popcorn("#dvanaeset_strana");
+
+var wordTimes12 = {
+"w12-1": { start: 0.20, end: 0.89 },//"Možeš
+"w12-2": { start: 0.89, end: 1.22 },//dobiti
+"w12-3": { start: 1.22, end: 1.50 },//malo
+"w12-4": { start: 1.44, end: 1.88 },//moje",
+"w12-5": { start: 2.30, end: 2.90 },//ponudila
+"w12-6": { start: 2.90, end: 3.18 },//je
+"w12-7": { start: 3.03, end: 3.70 },//Jasmina.
+"w12-8": { start: 0.00, end: 0.00 },//
+"w12-9": { start: 4.00, end: 4.37 },//"I
+"w12-10": { start: 4.37, end: 4.86 },//moje",
+"w12-11": { start: 5.21, end: 5.76 },//rekao
+"w12-12": { start: 5.76, end: 6.04 },//je
+"w12-13": { start: 5.94, end: 6.44 },//Robert.
+"w12-14": { start: 0.00, end: 0.00 },//
+"w12-15": { start: 6.74, end: 7.21 },//"Moje
+"w12-16": { start: 7.21, end: 7.83 },//isto",
+"w12-17": { start: 8.11, end: 8.67 },//rekao
+"w12-18": { start: 8.67, end: 8.95 },//je
+"w12-19": { start: 8.84, end: 9.30 },//Milan.
+"w12-20": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+
+			
+				pop12.on("ended",function(){
+				if(current==12){
+							ClearFlags();
+							
+				}});
+			
+			$.each(wordTimes12, function(id, time) {
+				pop12.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected12"
+				});
+			});
+
+		
+		
+		//TRINAESETTA STRANA!
+					function PlayPause13() {
+				if( ppFlag == 1 ) { 
+					pop13.play();
+				} else if( ppFlag == 0 ) { 
+					pop13.pause(); 
+				}
+			}
+			
+			var pop13 = Popcorn("#trinaeset_strana");
+var wordTimes13 = {
+"w13-1": { start: 0.40, end: 0.80 },//I
+"w13-2": { start: 0.80, end: 1.14 },//mama
+"w13-3": { start: 1.14, end: 1.42 },//je
+"w13-4": { start: 1.35, end: 1.91 },//podijelila
+"w13-5": { start: 1.91, end: 2.29 },//svoju
+"w13-6": { start: 2.29, end: 2.73 },//naranču
+"w13-7": { start: 2.73, end: 3.01 },//s
+"w13-8": { start: 2.89, end: 3.57 },//Josipom.
+"w13-9": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+
+
+			
+				pop13.on("ended",function(){
+				if(current==13){
+							ClearFlags();
+										
+				}});
+			
+			$.each(wordTimes13, function(id, time) {
+				pop13.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected13"
+				});
+			});
+
+					function PlayPause14() {
+				if( ppFlag == 1 ) { 
+					pop14.play();
+				} else if( ppFlag == 0 ) { 
+					pop14.pause(); 
+				}
+			}
+			
+			var pop14 = Popcorn("#cetirinaeset_strana");
+var wordTimes14 = {
+"w14-1": { start: 0.35, end: 1.17 },//Odjednom,
+"w14-2": { start: 1.63, end: 2.37 },//Josipove
+"w14-3": { start: 2.37, end: 2.76 },//ruke
+"w14-4": { start: 2.76, end: 3.04 },//bile
+"w14-5": { start: 2.93, end: 3.22 },//su
+"w14-6": { start: 3.22, end: 3.66 },//pune
+"w14-7": { start: 3.66, end: 4.33 },//sočnih
+"w14-8": { start: 4.33, end: 4.85 },//kriški
+"w14-9": { start: 4.85, end: 5.51 },//naranče.
+"w14-10": { start: 6.28, end: 6.69 },//"Ima
+"w14-11": { start: 0.00, end: 0.00 },//
+"w14-12": { start: 6.69, end: 7.14 },//dovoljno
+"w14-13": { start: 7.14, end: 7.54 },//naranči
+"w14-14": { start: 7.54, end: 7.82 },//za
+"w14-15": { start: 7.74, end: 8.21 },//sve!"
+"w14-16": { start: 8.52, end: 8.96 },//rekao
+"w14-17": { start: 8.96, end: 9.24 },//je
+"w14-18": { start: 9.14, end: 9.69 },//Josip.
+"w14-19": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+				pop14.on("ended",function(){
+				if(current==14){
+							ClearFlags();
+								
+				}});
+			
+			$.each(wordTimes14, function(id, time) {
+				pop14.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected14"
+				});
+			});	
+					function PlayPause15() {
+				if( ppFlag == 1 ) { 
+					pop15.play();
+				} else if( ppFlag == 0 ) { 
+					pop15.pause(); 
+				}
+			}
+			
+			var pop15 = Popcorn("#petnaeset_strana");
+var wordTimes15 = {
+"w15-1": { start: 0.40, end: 0.94 },//Zatim
+"w15-2": { start: 0.94, end: 1.24 },//su
+"w15-3": { start: 1.12, end: 1.46 },//svi
+"w15-4": { start: 1.46, end: 1.86 },//sjeli
+"w15-5": { start: 1.86, end: 2.14 },//za
+"w15-6": { start: 2.01, end: 2.59 },//stol
+"w15-7": { start: 2.78, end: 3.07 },//i
+"w15-8": { start: 3.07, end: 3.50 },//zajedno
+"w15-9": { start: 3.50, end: 3.84 },//jeli
+"w15-10": { start: 3.84, end: 4.54 },//naranče.
+"w15-11": { start: 0.00, end: 0.00 },//
+"w15-12": { start: 5.36, end: 5.77 },//Bio
+"w15-13": { start: 5.77, end: 6.05 },//je
+"w15-14": { start: 5.95, end: 6.23 },//to
+"w15-15": { start: 6.06, end: 6.70 },//sladak
+"w15-16": { start: 6.70, end: 7.18 },//kraj
+"w15-17": { start: 7.18, end: 7.80 },//dana.
+"w15-18": { start: 0.00, end: 0.00 }//
+};
+
+
+
+
+
+
+				pop15.on("ended",function(){
+				if(current==15){
+							ClearFlags();									
+				}});
+			
+			$.each(wordTimes15, function(id, time) {
+				pop15.footnote({
+					start: time.start,
+					end: time.end,
+					text: '',
+					target: id,
+					effect: "applyclass",
+					applyclass: "selected14"
+				});
+			});		
+
+			//proverka autoplay!
+				function checkPlay(){
+				if(autoplayFlag==0){
+			autoplayFlag = 1;
+		
+			timeout.stop();
+			makeDelay(9.40); //treba da e isto so dolniot delay na koricata
+			playIntro(); 
+			SetFlags();
+			}
+			else{ 
+			autoplayFlag=0;
+			timeout.stop();	
+			stopIntro();
+			ClearFlags();
+
+			}
+		}
+		
+		$(".autoplay_on").hide(100);
+		$(".autoplay_btn").click(function() {
+			if(autoplayFlag == 0) {
+				$(".autoplay_on").hide(100);
+			} else if(autoplayFlag == 1) {
+				$(".autoplay_on").show(100);
+				}
+		});
+		
+		// JavaScript funckii za animacija na stranite i slikovnica efektot so koristenje na plugin bookblock.js
+	
+			var Page = (function() {
+				
+				var config = {
+						$bookBlock : $( '#bb-bookblock' ),
+						$navNext : $( '#bb-nav-next' ),
+						$navPrev : $( '#bb-nav-prev' ),
+						$replay : $( '#rplBtn' ),
+						$navLast : $( '#bb-nav-last' ),
+					},
+					
+					init = function() {
+						config.$bookBlock.bookblock( {
+							speed : 1000,
+							shadowSides : 0.8,
+							shadowFlip : 0.4,
+							onBeforeFlip : function(page) { flipSound(); },
+							onEndFlip : function(old, page, isLimit){
+							
+								current = page;
+								timeout.stop();
+								if(autoplayFlag==1){							
+									switch(current){
+									case 0: playIntro(); makeDelay(9.40); SetFlags(); break;//da se smeni uste ednas gore!
+									//case 1: makeDelay(1.55);  break;
+									case 1: Timer(function(){pop1.play();},500); makeDelay(4.52+2.00); SetFlags(); break;
+									case 2: Timer(function(){pop2.play();},500); makeDelay(17.25+2.00); SetFlags(); break;
+									case 3: Timer(function(){pop3.play();},500); makeDelay(14.95+2.00); SetFlags(); break;		
+									case 4: Timer(function(){pop4.play();},500); makeDelay(9.62+2.00); SetFlags(); break;		
+									case 5: Timer(function(){pop5.play();},500); makeDelay(21.56+2.00); SetFlags(); break;	
+									case 6: Timer(function(){pop6.play();},500); makeDelay(11.08+2.00); SetFlags(); break;
+									case 7: Timer(function(){pop7.play();},500); makeDelay(7.90+2.00); SetFlags(); break;
+									case 8: Timer(function(){pop8.play();},500); makeDelay(18.81+2.00); SetFlags(); break;
+									case 9: Timer(function(){pop9.play();},500); makeDelay(15.55+2.00); SetFlags(); break;
+									case 10: Timer(function(){pop10.play();},500); makeDelay(14.30+2.00); SetFlags(); break;
+									case 11: Timer(function(){pop11.play();},500); makeDelay(10.80+2.00); SetFlags(); break;
+									case 12: Timer(function(){pop12.play();},500); makeDelay(10.25+2.00); SetFlags(); break;
+									case 13: Timer(function(){pop13.play();},500); makeDelay(3.30+2.00); SetFlags(); break;
+									case 14: Timer(function(){pop14.play();},500); makeDelay(7.80+2.00); SetFlags(); break;
+									case 15: Timer(function(){pop15.play();},500);  makeDelay(7.70+1.00);SetFlags(); break;
+									} //switch
+								}//autplay check
+							} //onendflip
+						});
+						initEvents();
+					},
+					initEvents = function() {
+						var $slides = config.$bookBlock.children();
+						// add navigation events
+						config.$navNext.on( 'click touchstart', function() {
+							config.$bookBlock.bookblock( 'next' );
+							/////////////////////////////////////////////////////////////////
+							var allaudio = document.getElementsByClassName('audio');
+							for( var i=0; i<allaudio.length; i++)
+								{
+									allaudio[i].pause();
+									allaudio[i].src = allaudio[i].src;
+								}
+							/////////////////////////////////////////////////////////////////
+							return false;
+						} );
+						config.$navPrev.on( 'click touchstart', function() {
+							config.$bookBlock.bookblock( 'prev' );
+							/////////////////////////////////////////////////////////////////
+							var allaudio = document.getElementsByClassName('audio');
+							for( var i=0; i<allaudio.length; i++)
+								{
+									allaudio[i].pause();
+									allaudio[i].src = allaudio[i].src;
+								}
+							////////////////////////////////////////////////////////////////
+							return false;
+						} );
+						config.$replay.on( 'click touchstart', function() {
+							config.$bookBlock.bookblock( 'first' );
+							/////////////////////////////////////////////////////////////////
+							var allaudio = document.getElementsByClassName('audio');
+							for( var i=0; i<allaudio.length; i++)
+								{
+									allaudio[i].pause();
+									allaudio[i].src = allaudio[i].src;
+								}
+							/////////////////////////////////////////////////////////////////
+							return false;
+						} );
+						config.$navLast.on( 'click touchstart', function() {
+							config.$bookBlock.bookblock( 'last' );
+							/////////////////////////////////////////////////////////////////
+							var allaudio = document.getElementsByClassName('audio');
+							for( var i=0; i<allaudio.length; i++)
+								{
+									allaudio[i].pause();
+									allaudio[i].src = allaudio[i].src;
+								}
+							/////////////////////////////////////////////////////////////////
+							return false;
+						} );
+						// add swipe events
+						$slides.on( {
+							'swipeleft' : function( event ) {
+								config.$bookBlock.bookblock( 'next' );
+								/////////////////////////////////////////////////////////////////
+								var allaudio = document.getElementsByClassName('audio');
+								for( var i=0; i<allaudio.length; i++)
+								{
+									allaudio[i].pause();
+									allaudio[i].src = allaudio[i].src;
+								}
+								/////////////////////////////////////////////////////////////////
+								return false;
+							},
+							'swiperight' : function( event ) {
+								config.$bookBlock.bookblock( 'prev' );
+								/////////////////////////////////////////////////////////////////
+								var allaudio = document.getElementsByClassName('audio');
+								for( var i=0; i<allaudio.length; i++)
+								{
+									allaudio[i].pause();
+									allaudio[i].src = allaudio[i].src;
+								}
+								/////////////////////////////////////////////////////////////////
+								return false;
+							}
+						} );
+						// add keyboard events
+						$( document ).keydown( function(e) {
+							var keyCode = e.keyCode || e.which,
+								arrow = {
+									left : 37,
+									up : 38,
+									right : 39,
+									down : 40,
+								};
+							switch (keyCode) {
+								case arrow.left:
+									config.$bookBlock.bookblock( 'prev' );
+									////////////////////////////////////////////////////////////////
+									var allaudio = document.getElementsByClassName('audio');
+									for( var i=0; i<allaudio.length; i++)
+									{
+										allaudio[i].pause();
+										allaudio[i].src = allaudio[i].src;
+									}
+									////////////////////////////////////////////////////////////////
+									break;
+								case arrow.right:
+									config.$bookBlock.bookblock( 'next' );
+									////////////////////////////////////////////////////////////////
+									var allaudio = document.getElementsByClassName('audio');
+									for( var i=0; i<allaudio.length; i++)
+									{
+										allaudio[i].pause();
+										allaudio[i].src = allaudio[i].src;
+									}
+									////////////////////////////////////////////////////////////////
+									break;
+							}
+						} );
+					};
+					return { init : init };
+			})();
+		</script>
+		
+		<script>
+				Page.init();		
+		</script>
+		
+	</body>
+</html>
